@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
   "id": "c-java-loop-foundations",
-  "name": "C and Java: Loop Foundations",
+  "name": "Loop Foundations",
   "version": "1",
   "description": "A student-friendly foundation sequence for while, do while, for, counters, and accumulators. The same 11 sourced exercises per topic are shared by guided trace, simulation, and ordering, with parallel C and Java banks.",
   "session": {
-    "language": "c",
+    "language": "java",
     "availableLanguages": [
-      "c",
       "java"
     ],
     "timing": {
-      "allowReset": true,
       "enabled": false,
-      "minutes": 120
+      "minutes": 120,
+      "allowReset": true
     },
     "persistence": {
       "enabled": true
@@ -26,7 +25,7 @@
     {
       "id": "loop-foundations-trace",
       "name": "Learn Loop Flow",
-      "enabled": true,
+      "enabled": false,
       "profileIds": [
         "foundations-trace-while-basics",
         "foundations-trace-do-while-basics",
@@ -48,7 +47,7 @@
     {
       "id": "loop-foundations-order",
       "name": "Build Loop Programs",
-      "enabled": true,
+      "enabled": false,
       "profileIds": [
         "foundations-order-while-basics",
         "foundations-order-do-while-basics",
@@ -433,7 +432,7 @@
         "showScores": true,
         "feedbackRelease": "immediate",
         "lockItemAfterCheck": false,
-        "showCorrectSolution": true,
+        "showCorrectSolution": false,
         "manualResponses": {
           "mode": "automatic",
           "namedValueRate": 0,
@@ -476,7 +475,7 @@
         "showScores": true,
         "feedbackRelease": "immediate",
         "lockItemAfterCheck": false,
-        "showCorrectSolution": true,
+        "showCorrectSolution": false,
         "manualResponses": {
           "mode": "automatic",
           "namedValueRate": 0,
@@ -519,7 +518,7 @@
         "showScores": true,
         "feedbackRelease": "immediate",
         "lockItemAfterCheck": false,
-        "showCorrectSolution": true,
+        "showCorrectSolution": false,
         "manualResponses": {
           "mode": "automatic",
           "namedValueRate": 0,
@@ -562,7 +561,7 @@
         "showScores": true,
         "feedbackRelease": "immediate",
         "lockItemAfterCheck": false,
-        "showCorrectSolution": true,
+        "showCorrectSolution": false,
         "manualResponses": {
           "mode": "automatic",
           "namedValueRate": 0,
@@ -756,4 +755,3 @@
     }
   ]
 }
-
