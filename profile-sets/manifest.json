@@ -4,7 +4,7 @@
   "sets": [
     {
       "id": "c-java-loop-foundations",
-      "name": "C and Java: Loop Foundations",
+      "name": "Loop Foundations",
       "description": "A student-friendly sequence of shared guided trace, simulation, and ordering exercises for foundational loops.",
       "file": "c-java-loop-foundations.json",
       "enabled": true
